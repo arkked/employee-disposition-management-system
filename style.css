@@ -130,26 +130,30 @@ nav .fa {
 
 
 .map-side {
-    flex-basis: 32%;
+    /* flex-basis: 32%; */
     filter: invert(100%) sepia(0%) saturate(1954%) hue-rotate(26deg) brightness(109%) contrast(73%);
     align-self: flex-start;
     position: relative;
     overflow: hidden;
-   
-}
-
-.map-side img {
-
-    width: 100%;
     display: block;
-
-
+ 
+    
 }
 
+
+
+
+.map-side path:hover {
+
+    
+    filter: invert(60%) sepia(50%) saturate(80%) hue-rotate(5deg) brightness(120%) contrast(100%);
+    transition: 0.5s;
+    
+}
 
 .main-text {
 
-    flex-basis: 50%;
+    flex-basis: 40%;
     justify-content: space-between;
     font-family: 'Archivo Black', sans-serif;
     color:rgb(255, 255, 255);
@@ -160,6 +164,8 @@ nav .fa {
     margin-top: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
+    text-shadow: 6px 4px black;
+ 
 
 
 }
@@ -183,6 +189,16 @@ nav .fa {
 }
 
 
+@media(max-width: 612px)
+{
+
+    .map-side {
+
+        display: none;
+
+    }
+
+} 
 
 
 /* ---------------footer------------- */
