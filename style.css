@@ -10,7 +10,7 @@
 
 .header {
 
-    height: 10vh;
+    height: 10%;
     width: 100%;
     background-color: #0d1117;
     color: rgb(240 246 252 / 90%);
@@ -22,8 +22,8 @@
 
 nav {
 
-    display: flex;
-    padding: 2% 6%;
+    display: flex; 
+     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
 
@@ -98,10 +98,15 @@ nav .fa {
     margin: 10px;
     font-size: 22px;
     cursor: pointer;
-    
-
 
 }
+
+nav .fa.fa-bars {
+
+    margin-left: auto;
+
+}
+
 
 
 .nav-links ul {
@@ -209,6 +214,7 @@ nav .fa {
     font-family: 'Poppins', sans-serif;
     background-color:rgb(23, 23, 34);
     text-align: center;
-    color: rgb(240 246 252 / 90%);
+    color: rgba(240, 246, 252, 0.205);
+    font-size: 12px;
 }
 
